@@ -1,0 +1,56 @@
+:root {
+    --cardBackground: hsl(0, 0%, 100%);
+    --webBackground: hsl(212, 45%, 89%);
+    --pColor: hsl(220, 15%, 55%);
+    --headerColor: hsl(218, 44%, 22%);
+
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--webBackground);
+}
+
+.qr-card {
+    background-color: var(--cardBackground);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.qr-card img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+.info {
+    width: 280px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.info h1 {
+    color: var(--headerColor);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.info p {
+    color: var(--pColor);
+    font-weight: 400;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+}
